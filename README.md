@@ -34,8 +34,9 @@
 
 	- j'ai sauvegarder tous dependances dans le fichier package.json, donc il faut just
 	rouler les commandes suivantes : 
-		```sh
-		  	npm install
-		 	npm start 
-			npm stop  
-		```
+	
+```bash
+npm install
+npm start 
+npm stop  
+```
