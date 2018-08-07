@@ -1,7 +1,7 @@
 # bell-store
 
 
-1- Configuration BD
+### 1- Configuration BD
 
 	- Driver Class		: org.h2.Driver
 	- Lien pour console : localhost:8080/h2-console
@@ -9,7 +9,7 @@
 	- User Name 		: sa
 
 
-2- Backend 
+### 2- Backend 
 
 	- J'ai pas pu utiliser des patrons de conception vu l'utilisation de spring 
 	qui organise le code (service, controlleur, .. etc) et qui rend l'utilisation
@@ -24,7 +24,7 @@
 	granularité coté backend
 
 
-3- Front-end
+### 3- Front-end
 
 	- j'ai utilisé React pour la partie Front-end, la communication se fait via une 
 	un service REST coté back-end.
@@ -34,7 +34,8 @@
 
 	- j'ai sauvegarder tous dependances dans le fichier package.json, donc il faut just
 	rouler les commandes suivantes : 
-		
-		3.1  	npm install
-		3.2 	npm start (pour démarrer le serveur)
-		3.3		npm stop  (pour arreter le serveur)
+		```sh
+		  	npm install
+		 	npm start 
+			npm stop  
+		```
